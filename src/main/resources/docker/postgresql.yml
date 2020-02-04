@@ -1,0 +1,10 @@
+version: '1'
+services:
+    orderstore-postgresql:
+        image: postgres:10.4
+        environment:
+            - POSTGRES_DB=poliza
+            - POSTGRES_USER=admin
+            - POSTGRES_PASSWORD=password
+        ports:
+            - 5432:5432
