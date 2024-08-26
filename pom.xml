@@ -21,7 +21,7 @@
 		<log4j.version>1.7.25</log4j.version>		
 		<mybatis.version>2.1.1</mybatis.version>
 		<springfox.version>2.9.2</springfox.version>
-		<springfoxui.version>2.9.2</springfoxui.version>
+		<springfoxui.version>2.10.0</springfoxui.version>
 	</properties>
 
 	<dependencies>
